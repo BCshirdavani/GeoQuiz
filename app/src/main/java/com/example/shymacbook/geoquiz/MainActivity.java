@@ -31,8 +31,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mQuestionTextView = (TextView) findViewById(R.id.question_text_view);
-        int question = mQuestionBank[mCurrentIndex].getTextResId();
-        mQuestionTextView.setText(question);
+//        int question = mQuestionBank[mCurrentIndex].getTextResId();
+//        mQuestionTextView.setText(question);
+        updateQuestion();
 
         mTrueButton = (Button) findViewById(R.id.true_button);
         mTrueButton.setOnClickListener(new View.OnClickListener(){
@@ -50,6 +51,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mNextButton = (Button) findViewById(R.id.next_button);
+        mNextButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                mCurrentIndex = (mCurrentIndex +1) % mQuestionBank.length;
+//                int question = mQuestionBank[mCurrentIndex].getTextResId();
+//                mQuestionTextView.setText(question);
+                updateQuestion();
+            }
+        });
+
+    }
+
+    // this code occurred twice, so it was consolidated into 1 function...
+    private void updateQuestion(){
+        int question = mQuestionBank[mCurrentIndex].getTextResId();
+        mQuestionTextView.setText(question);
     }
 
 }
