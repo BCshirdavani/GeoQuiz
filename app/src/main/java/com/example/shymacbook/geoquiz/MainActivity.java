@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
+    private static final String KEY_INDEX = "index";
     private Button mTrueButton;
     private Button mFalseButton;
     private Button mNextButton;
@@ -33,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate: onCreate(Bundle) called");
         setContentView(R.layout.activity_main);
 
+        if (savedInstanceState != null){
+            mCurrentIndex = savedInstanceState.getInt(KEY_INDEX, 0);
+        }
+        // get the saved stuff, so screen rotation doesn't fuck it up
         mQuestionTextView = (TextView) findViewById(R.id.question_text_view);
 //        int question = mQuestionBank[mCurrentIndex].getTextResId();
 //        mQuestionTextView.setText(question);
@@ -102,6 +107,15 @@ public class MainActivity extends AppCompatActivity {
         super.onPause();
         Log.d(TAG, "onPause() called");
     }
+
+    // save stuff, so screen rotation won't fuck it up
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+        Log.i(TAG, "onSaveInstanceState");
+        savedInstanceState.putInt(KEY_INDEX, mCurrentIndex);
+    }
+
     @Override
     public void onStop(){
         super.onStop();
