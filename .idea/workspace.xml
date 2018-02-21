@@ -23,17 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d7d9257-2bc6-491b-b6c8-12672ff1b282" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/CheatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/CheatActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/MainActivity.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,29 +48,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            <state relative-caret-position="460">
+              <caret line="101" column="13" lean-forward="false" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#703#730#0" expanded="true" />
-                <element signature="e#764#788#0" expanded="true" />
-                <element signature="e#822#847#0" expanded="true" />
-                <element signature="e#882#906#0" expanded="true" />
-                <element signature="e#941#967#0" expanded="true" />
-                <element signature="e#1001#1023#0" expanded="true" />
-                <element signature="e#1811#2065#0" expanded="true" />
-                <element signature="e#2064#2065#0" expanded="true" />
-                <element signature="e#2174#2431#0" expanded="true" />
-                <element signature="e#2537#2894#0" expanded="true" />
-                <element signature="e#2893#2894#0" expanded="true" />
-                <element signature="e#3002#3567#0" expanded="true" />
-                <element signature="e#3566#3567#0" expanded="true" />
-                <element signature="e#4099#4121#0" expanded="true" />
-                <element signature="e#4167#4191#0" expanded="true" />
-                <marker date="1519188405501" expanded="false" signature="2318:2342" ph="&quot;Incorrect!&quot;" />
+                <element signature="e#852#879#0" expanded="true" />
+                <element signature="e#913#937#0" expanded="true" />
+                <element signature="e#971#996#0" expanded="true" />
+                <element signature="e#1031#1055#0" expanded="true" />
+                <element signature="e#1090#1116#0" expanded="true" />
+                <element signature="e#1150#1172#0" expanded="true" />
+                <element signature="e#1926#2180#0" expanded="true" />
+                <element signature="e#2179#2180#0" expanded="true" />
+                <element signature="e#2289#2546#0" expanded="true" />
+                <element signature="e#2545#2546#0" expanded="true" />
+                <element signature="e#2652#3009#0" expanded="true" />
+                <element signature="e#3008#3009#0" expanded="true" />
+                <element signature="e#3117#3808#0" expanded="true" />
+                <element signature="e#3807#3808#0" expanded="true" />
+                <element signature="e#4723#4745#0" expanded="true" />
+                <element signature="e#4791#4815#0" expanded="true" />
+                <marker date="1519240882196" expanded="false" signature="2433:2457" ph="&quot;Incorrect!&quot;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheatActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/CheatActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1460#1833#0" expanded="true" />
+                <element signature="e#1633#1653#0" expanded="true" />
+                <element signature="e#1724#1745#0" expanded="true" />
+                <element signature="e#1832#1833#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,22 +101,6 @@
               <folding>
                 <element signature="e#489#490#0" expanded="true" />
                 <element signature="e#523#524#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheatActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/CheatActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1230#1559#0" expanded="true" />
-                <element signature="e#1403#1423#0" expanded="true" />
-                <element signature="e#1494#1515#0" expanded="true" />
-                <element signature="e#1558#1559#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,8 +135,8 @@
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="210">
+              <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -1909,8 +1901,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cheat.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/CheatActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2300,7 +2292,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519239331747" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519241072085" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2348,7 +2340,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519239331747" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519241072085" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2510,7 +2502,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519239331748" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519241072086" />
       </method>
     </configuration>
     <list size="1">
@@ -2632,22 +2624,23 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#703#730#0" expanded="true" />
-            <element signature="e#764#788#0" expanded="true" />
-            <element signature="e#822#847#0" expanded="true" />
-            <element signature="e#882#906#0" expanded="true" />
-            <element signature="e#941#967#0" expanded="true" />
-            <element signature="e#1001#1023#0" expanded="true" />
-            <element signature="e#1811#2065#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2174#2431#0" expanded="true" />
-            <element signature="e#2537#2894#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="true" />
-            <element signature="e#3002#3567#0" expanded="true" />
-            <element signature="e#3566#3567#0" expanded="true" />
-            <element signature="e#4099#4121#0" expanded="true" />
-            <element signature="e#4167#4191#0" expanded="true" />
-            <marker date="1519188405501" expanded="false" signature="2318:2342" ph="&quot;Incorrect!&quot;" />
+            <element signature="e#852#879#0" expanded="true" />
+            <element signature="e#913#937#0" expanded="true" />
+            <element signature="e#971#996#0" expanded="true" />
+            <element signature="e#1031#1055#0" expanded="true" />
+            <element signature="e#1090#1116#0" expanded="true" />
+            <element signature="e#1150#1172#0" expanded="true" />
+            <element signature="e#1926#2180#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2289#2546#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2652#3009#0" expanded="true" />
+            <element signature="e#3008#3009#0" expanded="true" />
+            <element signature="e#3117#3808#0" expanded="true" />
+            <element signature="e#3807#3808#0" expanded="true" />
+            <element signature="e#4723#4745#0" expanded="true" />
+            <element signature="e#4791#4815#0" expanded="true" />
+            <marker date="1519240882196" expanded="false" signature="2433:2457" ph="&quot;Incorrect!&quot;" />
           </folding>
         </state>
       </provider>
@@ -2710,10 +2703,10 @@
           <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1230#1559#0" expanded="true" />
-            <element signature="e#1403#1423#0" expanded="true" />
-            <element signature="e#1494#1515#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
+            <element signature="e#1460#1833#0" expanded="true" />
+            <element signature="e#1633#1653#0" expanded="true" />
+            <element signature="e#1724#1745#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2732,22 +2725,23 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#703#730#0" expanded="true" />
-            <element signature="e#764#788#0" expanded="true" />
-            <element signature="e#822#847#0" expanded="true" />
-            <element signature="e#882#906#0" expanded="true" />
-            <element signature="e#941#967#0" expanded="true" />
-            <element signature="e#1001#1023#0" expanded="true" />
-            <element signature="e#1811#2065#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2174#2431#0" expanded="true" />
-            <element signature="e#2537#2894#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="true" />
-            <element signature="e#3002#3567#0" expanded="true" />
-            <element signature="e#3566#3567#0" expanded="true" />
-            <element signature="e#4099#4121#0" expanded="true" />
-            <element signature="e#4167#4191#0" expanded="true" />
-            <marker date="1519188405501" expanded="false" signature="2318:2342" ph="&quot;Incorrect!&quot;" />
+            <element signature="e#852#879#0" expanded="true" />
+            <element signature="e#913#937#0" expanded="true" />
+            <element signature="e#971#996#0" expanded="true" />
+            <element signature="e#1031#1055#0" expanded="true" />
+            <element signature="e#1090#1116#0" expanded="true" />
+            <element signature="e#1150#1172#0" expanded="true" />
+            <element signature="e#1926#2180#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2289#2546#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2652#3009#0" expanded="true" />
+            <element signature="e#3008#3009#0" expanded="true" />
+            <element signature="e#3117#3808#0" expanded="true" />
+            <element signature="e#3807#3808#0" expanded="true" />
+            <element signature="e#4723#4745#0" expanded="true" />
+            <element signature="e#4791#4815#0" expanded="true" />
+            <marker date="1519240882196" expanded="false" signature="2433:2457" ph="&quot;Incorrect!&quot;" />
           </folding>
         </state>
       </provider>
@@ -2799,22 +2793,23 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#703#730#0" expanded="true" />
-            <element signature="e#764#788#0" expanded="true" />
-            <element signature="e#822#847#0" expanded="true" />
-            <element signature="e#882#906#0" expanded="true" />
-            <element signature="e#941#967#0" expanded="true" />
-            <element signature="e#1001#1023#0" expanded="true" />
-            <element signature="e#1811#2065#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2174#2431#0" expanded="true" />
-            <element signature="e#2537#2894#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="true" />
-            <element signature="e#3002#3567#0" expanded="true" />
-            <element signature="e#3566#3567#0" expanded="true" />
-            <element signature="e#4099#4121#0" expanded="true" />
-            <element signature="e#4167#4191#0" expanded="true" />
-            <marker date="1519188405501" expanded="false" signature="2318:2342" ph="&quot;Incorrect!&quot;" />
+            <element signature="e#852#879#0" expanded="true" />
+            <element signature="e#913#937#0" expanded="true" />
+            <element signature="e#971#996#0" expanded="true" />
+            <element signature="e#1031#1055#0" expanded="true" />
+            <element signature="e#1090#1116#0" expanded="true" />
+            <element signature="e#1150#1172#0" expanded="true" />
+            <element signature="e#1926#2180#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2289#2546#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2652#3009#0" expanded="true" />
+            <element signature="e#3008#3009#0" expanded="true" />
+            <element signature="e#3117#3808#0" expanded="true" />
+            <element signature="e#3807#3808#0" expanded="true" />
+            <element signature="e#4723#4745#0" expanded="true" />
+            <element signature="e#4791#4815#0" expanded="true" />
+            <marker date="1519240882196" expanded="false" signature="2433:2457" ph="&quot;Incorrect!&quot;" />
           </folding>
         </state>
       </provider>
@@ -2866,22 +2861,23 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#703#730#0" expanded="true" />
-            <element signature="e#764#788#0" expanded="true" />
-            <element signature="e#822#847#0" expanded="true" />
-            <element signature="e#882#906#0" expanded="true" />
-            <element signature="e#941#967#0" expanded="true" />
-            <element signature="e#1001#1023#0" expanded="true" />
-            <element signature="e#1811#2065#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2174#2431#0" expanded="true" />
-            <element signature="e#2537#2894#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="true" />
-            <element signature="e#3002#3567#0" expanded="true" />
-            <element signature="e#3566#3567#0" expanded="true" />
-            <element signature="e#4099#4121#0" expanded="true" />
-            <element signature="e#4167#4191#0" expanded="true" />
-            <marker date="1519188405501" expanded="false" signature="2318:2342" ph="&quot;Incorrect!&quot;" />
+            <element signature="e#852#879#0" expanded="true" />
+            <element signature="e#913#937#0" expanded="true" />
+            <element signature="e#971#996#0" expanded="true" />
+            <element signature="e#1031#1055#0" expanded="true" />
+            <element signature="e#1090#1116#0" expanded="true" />
+            <element signature="e#1150#1172#0" expanded="true" />
+            <element signature="e#1926#2180#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2289#2546#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2652#3009#0" expanded="true" />
+            <element signature="e#3008#3009#0" expanded="true" />
+            <element signature="e#3117#3808#0" expanded="true" />
+            <element signature="e#3807#3808#0" expanded="true" />
+            <element signature="e#4723#4745#0" expanded="true" />
+            <element signature="e#4791#4815#0" expanded="true" />
+            <marker date="1519240882196" expanded="false" signature="2433:2457" ph="&quot;Incorrect!&quot;" />
           </folding>
         </state>
       </provider>
@@ -2994,32 +2990,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#703#730#0" expanded="true" />
-            <element signature="e#764#788#0" expanded="true" />
-            <element signature="e#822#847#0" expanded="true" />
-            <element signature="e#882#906#0" expanded="true" />
-            <element signature="e#941#967#0" expanded="true" />
-            <element signature="e#1001#1023#0" expanded="true" />
-            <element signature="e#1811#2065#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2174#2431#0" expanded="true" />
-            <element signature="e#2537#2894#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="true" />
-            <element signature="e#3002#3567#0" expanded="true" />
-            <element signature="e#3566#3567#0" expanded="true" />
-            <element signature="e#4099#4121#0" expanded="true" />
-            <element signature="e#4167#4191#0" expanded="true" />
-            <marker date="1519188405501" expanded="false" signature="2318:2342" ph="&quot;Incorrect!&quot;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/Question.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -3033,22 +3003,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="210">
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/CheatActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="151">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1230#1559#0" expanded="true" />
-            <element signature="e#1403#1423#0" expanded="true" />
-            <element signature="e#1494#1515#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
+            <element signature="e#1460#1833#0" expanded="true" />
+            <element signature="e#1633#1653#0" expanded="true" />
+            <element signature="e#1724#1745#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/shymacbook/geoquiz/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="101" column="13" lean-forward="false" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#852#879#0" expanded="true" />
+            <element signature="e#913#937#0" expanded="true" />
+            <element signature="e#971#996#0" expanded="true" />
+            <element signature="e#1031#1055#0" expanded="true" />
+            <element signature="e#1090#1116#0" expanded="true" />
+            <element signature="e#1150#1172#0" expanded="true" />
+            <element signature="e#1926#2180#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2289#2546#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2652#3009#0" expanded="true" />
+            <element signature="e#3008#3009#0" expanded="true" />
+            <element signature="e#3117#3808#0" expanded="true" />
+            <element signature="e#3807#3808#0" expanded="true" />
+            <element signature="e#4723#4745#0" expanded="true" />
+            <element signature="e#4791#4815#0" expanded="true" />
+            <marker date="1519240882196" expanded="false" signature="2433:2457" ph="&quot;Incorrect!&quot;" />
           </folding>
         </state>
       </provider>

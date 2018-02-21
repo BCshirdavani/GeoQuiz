@@ -1,5 +1,6 @@
 package com.example.shymacbook.geoquiz;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,11 +14,14 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
     private static final String KEY_INDEX = "index";
+    private static final int REQUEST_CODE_CHEAT = 0;
     private Button mTrueButton;
     private Button mFalseButton;
     private Button mNextButton;
     private Button mCheatButton;
     private TextView mQuestionTextView;
+    private int mCurrentIndex = 0;
+    private boolean mIsCheater;
 
     private Question[] mQuestionBank = new Question[]{
             new Question(R.string.question_australia, true),
@@ -28,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             new Question(R.string.question_asia, true),
     };
 
-    private int mCurrentIndex = 0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,13 +88,29 @@ public class MainActivity extends AppCompatActivity {
                 // we will now use the NEW way
                 boolean answerIsTrue = mQuestionBank[mCurrentIndex].isAnswerTrue();
                 Intent intent = CheatActivity.newIntent(MainActivity.this, answerIsTrue);
-                startActivity(intent);
+//                startActivity(intent); // old start intent, updated to check if cheat happened
+                startActivityForResult(intent, REQUEST_CODE_CHEAT);
             }
         });
 
 
         updateQuestion();
 
+    }
+
+
+    // pp 108
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        if(resultCode != Activity.RESULT_OK){
+            return;;
+        }
+        if(requestCode == REQUEST_CODE_CHEAT){
+            if (data == null){
+                return;
+            }
+            mIsCheater = CheatActivity.wasAnswerShown(data);
+        }
     }
 
     // this code occurred twice, so it was consolidated into 1 function...
